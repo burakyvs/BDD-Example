@@ -21,7 +21,7 @@ jobs:
           command: |
             dotnet test
       - store_test_results:
-          path: $HOME/TestResults 
+          path: TestResults 
             
 
 workflows:
